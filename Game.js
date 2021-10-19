@@ -23,7 +23,7 @@ class Game {
     this.game = false;
     this.base = {
       img: this.asset.base,
-      vector: -2,
+      vector: -SPEED,
       width: this.asset.base.naturalWidth * SCALE,
       height: this.asset.base.naturalHeight * SCALE,
       x: 0,

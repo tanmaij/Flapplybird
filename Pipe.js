@@ -14,7 +14,7 @@ class Pipe {
     this.scoreTrue = true;
   }
   update() {
-    if (this.game.game) this.x += -2;
+    if (this.game.game) this.x += -SPEED;
   }
   draw() {
     const ctx = this.game.ctx;
